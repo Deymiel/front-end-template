@@ -1,0 +1,227 @@
+@import url("../fonts/Gilroy_fonts/stylesheet.css");
+html, body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-repeat: no-repeat;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+* html .clearfix {
+  height: 1%;
+}
+
+* {
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+span,
+p,
+a,
+label {
+  margin-bottom: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.ease,
+a,
+input[type="submit"],
+button {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.relative {
+  position: relative;
+}
+
+.clearfix {
+  display: block;
+  clear: both;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: "";
+  clear: both;
+  height: 0;
+}
+
+.center-div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.middle-div {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
+
+.hori-div {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+}
+
+.bg-common {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.relative, .rel {
+  position: relative;
+}
+
+.absolute, .abs {
+  position: absolute;
+}
+
+input:focus, button:focus, textarea:focus {
+  outline: none;
+}
+
+.z-top {
+  position: relative;
+  z-index: 80;
+}
+
+.change_header_bg {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.section_padding {
+  padding: 100px 0;
+}
+
+.navbar-toggler {
+  display: block;
+  padding: 27px 19px;
+  width: 18px;
+  height: 2px;
+  border: 0;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  background-clip: content-box;
+  -webkit-transition: background-color 500ms ease-in-out 250ms;
+  transition: background-color 500ms ease-in-out 250ms;
+  background-color: #000;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.navbar-toggler:hover {
+  cursor: pointer;
+}
+
+.navbar-toggler:before, .navbar-toggler:after {
+  position: relative;
+  content: '';
+  display: block;
+  width: 18px;
+  height: 2px;
+  background-color: #000;
+  -webkit-transition: -webkit-transform 500ms ease-in-out;
+  transition: -webkit-transform 500ms ease-in-out;
+  transition: transform 500ms ease-in-out;
+  transition: transform 500ms ease-in-out, -webkit-transform 500ms ease-in-out;
+}
+
+.navbar-toggler:before {
+  top: -6px;
+}
+
+.navbar-toggler:after {
+  bottom: -4px;
+}
+
+.navbar-toggler__text {
+  display: none;
+}
+
+.navbar-toggler--active {
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+}
+
+.navbar-toggler--active:before {
+  -webkit-transform: translateY(6px) rotate(-225deg);
+          transform: translateY(6px) rotate(-225deg);
+}
+
+.navbar-toggler--active:after {
+  -webkit-transform: translateY(-6px) rotate(225deg);
+          transform: translateY(-6px) rotate(225deg);
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#site-header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#site-header.hide {
+  top: -130px;
+}
+
+.container-fluid {
+  padding: 0 10%;
+}
+
+
+
+/* START YOUR CSS HERE (NOTE: YOU CAN MODIFY CSS ABOVE) */
+
+
+
+/*# sourceMappingURL=main.css.map */
